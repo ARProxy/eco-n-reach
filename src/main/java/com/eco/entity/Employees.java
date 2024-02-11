@@ -24,7 +24,7 @@ public class Employees {
 
     private String phoneNumber;
 
-    private LocalDate hire_date;
+    private LocalDate hireDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "job_id", referencedColumnName = "job_id")
